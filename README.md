@@ -1,4 +1,4 @@
 # LMSS-Det
 lightweight multi-scale SAR ship detector
-# LMSS-Det
+# Code
 Code is coming soon
