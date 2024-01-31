@@ -12,21 +12,20 @@ The overall structure of the proposed **LiteSAR-Net**. The proposed **E2IPNet** 
 
 - An End-to-end Image Preprocessing Network (E2IPNet) is proposed to enhance the context features of targets for better detection of SAR ships in complex scenes.
 - To prevent the loss of semantic information, a Channel Feature Guided Spatial Pyramid Pooling (CFGSPP) that can dynamically adjust its parameters by leveraging inter-channel information is proposed.
+- Experiments conducted on SSDD and HRSID demonstrate that the proposed LiteSAR-Net achieves state-of-the-art performance.
+
+![results](img/result.png)
+
 ### Citation
 
 If you find this work useful, please cite our paper as:
 
 ```bibtex
-@ARTICLE{litesarnet,
+@article{litesarnet,
+  title={A lightweight SAR ship detector using end-to-end image preprocessing network and channel feature guided spatial pyramid pooling},
   author={Chen, Chuxuan and Zhang, Yimin and Hu, Ronglin and Yu, Yongtao},
-  journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={A lightweight SAR ship detector using end-to-end image preprocessing network and channel feature guided spatial pyramid pooling}, 
+  journal={IEEE Geoscience and Remote Sensing Letters},
   year={2024},
-  volume={},
-  number={},
-  doi={10.1109/LGRS.2024.3358957}}
+  publisher={IEEE}
 }
 ```
-
-### Code
-Code is coming soon
